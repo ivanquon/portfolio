@@ -1,0 +1,42 @@
+[
+  {
+    "name": "RAG Chatbot",
+    "role": "Developer",
+    "description": "Description of Project 1",
+    "bullets": [
+      "Built and optimized chatbot to achieve nearly real time performance for queries, with chat history, and fast queries",
+      "Successfully dockerized application into 3 containers and deployed to a Google Compute Engine instance"
+    ],
+    "startdate": "Jul 2025",
+    "enddate": "Sep 2025",
+    "image": "../assets/images/RAG.jpg",
+    "alt": "RAG Chatbot Page"
+  },
+  {
+    "name": "ZotMarket",
+    "role": "Designer & Full Stack Developer",
+    "description": "Description of Project 1",
+    "bullets": [
+      "Identified and presented original concept to the team in and refined into a list of 23 requirements",
+      "Developed 5+ RESTful API endpoints using FastAPI to integrate with an Azure SQL database",
+      "Designed and implemented 4+ responsive frontend components for landing and listing info pages"
+    ],
+    "startdate": "Apr 2025",
+    "enddate": "Jun 2025",
+    "image": "../assets/images/ZotMarket.jpg",
+    "alt": "ZotMarket Home Page"
+  },
+  {
+    "name": "NASA: Year On Psyche",
+    "role": "Designer & Developer",
+    "description": "Description of Project 1",
+    "bullets": [
+      "Designed and implemented systems for movement, dialogue, camera control, and quests",
+      "Led capstone team through utilizing the Unity Game Engine and helped resolve multiple difficulties during development, including proper GitHub workflow with Unity to avoid merge conflicts"
+    ],
+    "startdate": "Jan 2025",
+    "enddate": "Jun 2025",
+    "image": "../assets/images/NASA.jpg",
+    "alt": "Psyche 16 Asteroid"
+  }
+]
