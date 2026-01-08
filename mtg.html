@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/counters.css" />
+    <script defer src="./scripts/counters.js"></script>
+    <title>MTG Life Counter</title>
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar justify-content-center">
+        
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Number of Player Selection"
+      >
+        <input
+          type="radio"
+          class="btn-check"
+          name="player-count"
+          id="two-player-radio"
+          autocomplete="off"
+          value="2"
+          checked
+        />
+        <label class="btn btn-outline-danger" for="two-player-radio"
+          >2 Players</label
+        >
+        <input
+          type="radio"
+          class="btn-check"
+          name="player-count"
+          id="three-player-radio"
+          autocomplete="off"
+          value="3"
+        />
+        <label class="btn btn-outline-danger" for="three-player-radio"
+          >3 Players</label
+        >
+        <input
+          type="radio"
+          class="btn-check"
+          name="player-count"
+          id="four-player-radio"
+          autocomplete="off"
+          value="4"
+        />
+        <label class="btn btn-outline-danger" for="four-player-radio"
+          >4 Players</label
+        >
+      </div>
+    </div>
+    </nav>
+    <div class="row g-4" id="counters"></div>
+  </body>
+</html>

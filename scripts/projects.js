@@ -4,7 +4,6 @@ fetch("../assets/data/projects.json")
     var projectsContainer = document.getElementById("projectList");
     projects.forEach((project) => {
       const projectDiv = document.createElement("div");
-      projectDiv.classList.add("project");
 
       // Create HTML structure for each project
       projectDiv.innerHTML = `
